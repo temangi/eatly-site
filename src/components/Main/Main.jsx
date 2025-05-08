@@ -13,7 +13,10 @@ function Main() {
       <div className="container">
         <section className={scss.main_menu}>
           <article>
-            <p> <i> </i>OVER 1000 USERS </p>
+            <p>
+              {" "}
+              <i> </i>OVER 1000 USERS{" "}
+            </p>
             <h1>
               Enjoy Foods All <br /> Over The <span>World</span>
             </h1>
@@ -29,23 +32,23 @@ function Main() {
             <aside>
               <img src="/public/main/p1.svg" alt="" />
               <h5>Trustpilot</h5>
-              {stars}
+              <div className={scss.starts}>{stars}</div>
               <p>4900+</p>
             </aside>
           </article>
           <article className={scss.hero}>
             <div className={scss.hero_title}>
               <aside>
-                <div className={scss.label}>
-                  <img src="/public/main/food.svg" alt="" />
-                </div>
-              <h6>Chicken Hell</h6>
-              <p>On The Way</p>
-               <span className={scss.time}>3:09 PM</span>
+                <img src="/public/main/food.svg" alt="" />
+                <div>
+                  <h3>Chicken Hell</h3>
+                  <p>On The Way</p>
+                </div>  
               </aside>
+              <span className={scss.time}>3:09 PM</span>
             </div>
             <div className={scss.img}>
-             <img src="/public/main/food.1.svg" alt="Salmon Salad" />
+              <img src="/public/main/food.1.svg" alt="Salmon Salad" />
             </div>
           </article>
         </section>
