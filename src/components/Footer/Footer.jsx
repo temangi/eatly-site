@@ -3,7 +3,12 @@ import scss from "./Footer.module.scss"
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <section className={scss.footer}>
+      <div className='container'>
+        <section className={scss.footer_menu}>
+        </section>
+      </div>
+    </section>
   )
 }
 
