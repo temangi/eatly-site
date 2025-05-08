@@ -1,0 +1,46 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background: #eaeaea;
+
+  .footer_menu {
+    article {
+      display: flex;
+      padding: 50px 0 ;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 15px;
+      font-weight: 300;
+      border-bottom: 1px solid #999999;
+      div {
+        display: flex;
+        gap: 50px;
+        p{
+             color: #999999;
+             cursor: pointer;
+      }
+      }
+    }
+    .footerlower {
+        display: flex;  
+        justify-content: space-between;
+        color: #999999;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 300;
+        border: none;
+    
+        nav {
+          display: flex;
+          gap: 50px;
+        }
+      }
+
+   
+  }
+  span {
+    display: flex;
+    background: #818181;
+  }
+ 
+}
