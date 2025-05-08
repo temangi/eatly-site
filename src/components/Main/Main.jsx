@@ -1,11 +1,15 @@
 import React from "react";
 import scss from "./Main.module.scss";
+import  p1 from "../../../public/main/p1.svg"
+import food from "../../../public/main/food.svg"
+import food1 from "../../../public/main/food1.svg"
+import star from "../../../public/main/star.svg"
 
 const arr = [1, 2, 3, 4, 5];
 
 function Main() {
   const stars = arr.map((el) => (
-    <img key={el} src="/public/main/star.svg" alt="" />
+    <img key={el} src={star} alt="" />
   ));
 
   return (
@@ -30,7 +34,7 @@ function Main() {
               <button className={scss.goPro}>Go Pro</button>
             </div>
             <aside>
-              <img src="/public/main/p1.svg" alt="" />
+              <img src={p1} alt="" />
               <h5>Trustpilot</h5>
               <div className={scss.starts}>{stars}</div>
               <p>4900+</p>
@@ -39,7 +43,7 @@ function Main() {
           <article className={scss.hero}>
             <div className={scss.hero_title}>
               <aside>
-                <img src="/public/main/food.svg" alt="" />
+                <img src={food} alt="" />
                 <div>
                   <h3>Chicken Hell</h3>
                   <p>On The Way</p>
@@ -48,7 +52,7 @@ function Main() {
               <span className={scss.time}>3:09 PM</span>
             </div>
             <div className={scss.img}>
-              <img src="/public/main/food.1.svg" alt="Salmon Salad" />
+              <img src={food1} alt="" />
             </div>
           </article>
         </section>
