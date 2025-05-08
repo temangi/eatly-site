@@ -3,7 +3,7 @@ import scss from "./Header.module.scss"
 
 function Header() {
   return (
-    <div>Header</div>
+    <div className='container'>Header</div>
   )
 }
 
