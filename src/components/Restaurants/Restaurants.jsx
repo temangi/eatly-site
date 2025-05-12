@@ -3,7 +3,7 @@ import scss from "./Restaurants.module.scss";
 import rest from "../../../public/77.svg";
 import rest1 from "../../../public/rest1.svg";
 import Star from "../../../public/Star.svg";
-import Star1 from "../../../public/food/Star1.svg";
+import save from "../../../public/food/save.svg"
 import free from "../../../public/food/free.png";
 
 const aarRa = [
@@ -46,7 +46,7 @@ function Restaurants() {
           </p>
 
           <div className={scss.save}>
-            <img src={Star1} alt="" />
+            <img src={save} alt="" />
           </div>
         </article>
       </main>
