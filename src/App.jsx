@@ -6,7 +6,7 @@ import {BrowserRouter , Routes , Route} from "react-router-dom"
 //feat/ header ;жаны нерсе
 //fix/header ; озгортуу
 //git add. изменения кошуу учун
-//git commit  -m ; сообщение
+//git commit  -m ; сообщение 
 //git push origin ;название ветки
 function App() {
   return (
