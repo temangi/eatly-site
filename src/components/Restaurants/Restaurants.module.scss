@@ -1,0 +1,116 @@
+.restaurants {
+  background: #f9f9f9;
+  padding: 50px 0;
+  .restaurants_menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    .buutT {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 45px;
+      color: #323142;
+      font-weight: 600;
+      gap: 10px;
+      span {
+        color: #6c5fbc;
+      }
+    }
+    main {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background: white;
+        gap: 10px;
+        img{
+            width: 100%;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 5px;
+            
+            width: 100%;
+            h1,article{
+                padding: 0 20px;
+            }
+          span {
+            display: flex;
+            align-items: center;
+            font-size: 12.78px;
+            color: #daa31a;
+            background: pink;
+            border-radius: 5.4px;
+            margin-left: 20px;
+            padding: 5px 5px;
+          }
+          .trending {
+            background: #f7c5ba;
+            color: #fb471d;
+          }
+          .healthy {
+            background: #f7edd0;
+            color: #daa31a;
+          }
+          h1 {
+            font-size: 20px;
+            font-weight: 600;
+          }
+          article {
+            display: flex;
+            align-items: center;
+            border-radius: 50px;
+            justify-content: space-between;
+            font-weight: 400;
+            color: #8e97a6;
+            width: 100%;
+            .save {
+              background: #dbd9ee;
+              padding: 10px 12px;
+              display: flex;
+              border-radius: 50px;
+              cursor: pointer;
+            }
+            p {
+              display: flex;
+              justify-content: center;
+              align-items: flex-start;
+              font-size: 19px;
+              font-weight: 400;
+              gap: 10px;
+            }
+          }
+        }
+      }
+    }
+    a {
+      width: 100%;
+      text-align: end;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 10px;
+      text-decoration: none;
+      color: black;
+      img {
+        width: 25px;
+        height: 25px;
+        transform: rotate(180deg);
+        transition: 0.5s;
+      }
+      &:hover {
+        img {
+          transform: rotate(180deg) scale(1.2);
+        }
+      }
+    }
+  }
+}
