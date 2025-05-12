@@ -3,11 +3,9 @@ import scss from "./Restaurants.module.scss";
 import rest from "../../../public/77.svg";
 import rest1 from "../../../public/rest1.svg";
 import Star from "../../../public/Star.svg";
-import free from "../../../public/food/free.png";
 
 const aarRa = [
   {
-    img: "/public/77.svg",
     title: "Healthy",
     text: "The Chicken King",
     time: "24",
@@ -15,7 +13,6 @@ const aarRa = [
     clas: scss.healthy,
   },
   {
-    img: "/public/rest1.svg",
     title: "Trending",
     text: "The Burger King",
     time: "24",
@@ -23,7 +20,6 @@ const aarRa = [
     clas: scss.trending,
   },
   {
-    img: "/public/77.svg",
     title: "Healthy",
     text: "The Chicken King",
     time: "24",
@@ -33,7 +29,7 @@ const aarRa = [
 ];
 
 function Restaurants() {
-  const cards = aarRa.map(({ img, title, text, time, top, clas }, index) => (
+  const cards = aarRa.map(({ title, text, time, top, clas }, index) => (
     <div key={index}>
       <img src={rest} alt={rest1} />
       <main>
@@ -61,7 +57,7 @@ function Restaurants() {
           </h1>
           <main>{cards}</main>
           <a href="$">
-            View All <img src={free} alt="" />{" "}
+            View All <img src={""} alt="" />{" "}
           </a>
         </section>
       </div>
