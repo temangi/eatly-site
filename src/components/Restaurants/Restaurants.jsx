@@ -3,7 +3,6 @@ import scss from "./Restaurants.module.scss";
 import rest from "../../../public/77.svg";
 import rest1 from "../../../public/rest1.svg";
 import Star from "../../../public/Star.svg";
-import save from "../../../public/food/save.svg"
 import free from "../../../public/food/free.png";
 
 const aarRa = [
@@ -35,7 +34,7 @@ const aarRa = [
 
 function Restaurants() {
   const cards = aarRa.map(({ img, title, text, time, top, clas }, index) => (
-    <div>
+    <div key={index}>
       <img src={rest} alt={rest1} />
       <main>
         <span className={clas}>{title}</span>
@@ -46,7 +45,7 @@ function Restaurants() {
           </p>
 
           <div className={scss.save}>
-            <img src={save} alt="" />
+            <img src={""} alt="save" />
           </div>
         </article>
       </main>
