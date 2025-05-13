@@ -1,0 +1,50 @@
+.header {
+    padding: 40px 0 20px 0;
+  .header_menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #CBCBCB;
+    padding-bottom: 20px;
+    article {
+      display: flex;
+      gap: 15%;
+      main {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 53.49px;
+        a {
+          font-size: 17.83px;
+          text-decoration: none;
+          color: #606060;
+          font-weight: 500;
+          cursor: pointer;
+          &:hover {
+            transition: 0.4s;
+            color: #6c5fbc;
+          }
+        }
+      }
+    }
+    .header_right {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        button {
+          border-radius: 17.83px;
+          padding: 15px 15px;
+        color: 6c5fbc;
+            background: none;
+          border: none;
+          font-size: 17px;
+          cursor: pointer;
+          transition: .5s;
+          &:hover{
+            background: #6c5fbc;
+            color: white;
+          }
+        }
+      }
+  }
+}
