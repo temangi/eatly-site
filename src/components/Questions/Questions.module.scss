@@ -1,0 +1,59 @@
+.qaz {
+  padding: 50px 0;
+  .qaz_menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    .qaz_title {
+      font-size: 40px;
+      font-weight: 600;
+      h1 {
+        text-align: center;
+      }
+      h1:nth-of-type(2) {
+        color: rgba(108, 95, 188, 1);
+      }
+    }
+    main {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      width: 100%;
+      div {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid rgba(173, 173, 173, 1);
+        padding-bottom: 40px;
+        cursor: pointer;
+        article {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          font-size: 23px;
+          font-weight: 600;
+          img {
+            transition: 0.5s;
+            &:hover {
+              transform: rotate(45deg);
+            }
+          }
+          .openImg{
+             transform: rotate(45deg);
+          }
+        }
+        span {
+          max-height: 0px;
+          font-size: 15px;
+          color: rgba(104, 104, 104, 1);
+          overflow: hidden;
+          transition: 0.6s;
+        }
+        .open {
+          max-height: 50px;
+          padding-top: 30px;
+        }
+      }
+    }
+  }
+}

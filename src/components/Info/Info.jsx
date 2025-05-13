@@ -10,12 +10,14 @@ function Info() {
           Satisfied Costumers <br /> All Great Over The World{" "}
         </span>
       </div>
-      <div><h1>4M</h1>
+      <div>
+        <h1>4M</h1>
       <span>
         Healthy Dishes Sold <br /> Including Milk Shakes Smooth
       </span>
       </div>
-      <div><h1>99.99%</h1>
+      <div>
+        <h1>99.99%</h1>
       <span>
         Reliable Customer Support <br /> We Provide Great Experiences
       </span></div>
