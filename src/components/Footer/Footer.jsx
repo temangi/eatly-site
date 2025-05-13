@@ -1,14 +1,18 @@
 import React from "react";
 import scss from "./Footer.module.scss";
+import logo from "../../../public/footer/logo.svg";
+import insta from "../../../public/footer/ins.svg";
+import fais from "../../../public/footer/fais.svg";
+import twiter from "../../../public/footer/twit.svg"
 
-//const blog ["Blog","Pricing","About Us","c"]
+
 function Footer() {
   return (
     <section className={scss.footer}>
       <div className="container">
         <section className={scss.footer_menu}>
           <article>
-            <img src="/public/footer/Logo (2).svg" alt="" />
+            <img src={logo} alt="" />
             <div>
               <p>Blog</p>
               <p>Pricing</p>
@@ -19,9 +23,9 @@ function Footer() {
           <article className={scss.footerlower}>
             <p>© 2023 EATLY All Rights Reserved.</p>
             <nav>
-              <img src="/public/footer/ins.svg" alt="" />
-              <img src="/public/footer/fais.svg" alt="" />
-              <img src="/public/footer/twit.svg" alt="" />
+              <img src={insta} alt="" />
+              <img src={fais} alt="" />
+              <img src={twiter} alt="" />
             </nav>
           </article>
         </section>
