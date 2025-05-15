@@ -1,0 +1,63 @@
+.adress {
+  padding: 50px 0 100px 0;
+  border-radius: 30px;
+  .adress_menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: #6c5fbc;
+    position: relative;
+    padding: 50px;
+    background-image: url(../../assets/get50/bac.svg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    align-items: flex-start;
+    h1 {
+      display: flex;
+      align-items: center;
+      font-size: 50px;
+      font-weight: 800;
+      color: white;
+    }
+    div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #FFFFFF;
+      border-radius: 15px;
+      width: 40%;
+      padding: 5px 10px 5px 15px;
+      input {
+        font-size: 13px;
+        font-weight: 400;
+        color: gray;
+        border-radius: 14px;
+        border: none;
+        outline: none;
+        width: 100%;
+    
+      }
+      button {
+        padding: 15px 20px;
+        font-size: 14px;
+        background: #6c5fbc;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        outline: none;  
+         top: 500px;
+         left: 196px;
+        }
+      }
+    }
+    .tamak {
+      position: absolute;
+      right: 50px;
+      bottom: -100px;
+      width: 240px;
+      height: 276px;
+    }
+  }
+

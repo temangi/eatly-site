@@ -7,7 +7,7 @@ import Restaurants from "../components/Restaurants/Restaurants"
 import Info from '../components/Info/Info'
 import Questions from '../components/Questions/Questions'
 import Page from '../components/Page/Page'
-
+import Adress from '../components/Adress/Adress'
 
 function HomePage() {
   return (
@@ -20,6 +20,7 @@ function HomePage() {
     <Info/>
     <Questions/>
     <Page/>
+    <Adress/>
     <Footer/>
     </>
   )
