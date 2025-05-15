@@ -5,7 +5,8 @@ import Main from "../components/Main/Main"
 import Restaurants from "../components/Restaurants/Restaurants"
 import Info from '../components/Info/Info'
 import Page from '../components/Page/Page'
-
+import Adress from '../components/Adress/Adress'
+ 
 function HomePage() {
   return (
     <>
@@ -14,6 +15,7 @@ function HomePage() {
     <Restaurants/>
     <Info/>
     <Page/>
+    <Adress/>
     <Footer/>
     </>
   )
